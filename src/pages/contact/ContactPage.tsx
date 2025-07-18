@@ -427,7 +427,7 @@ export default function ContactPage() {
                 </Card>
 
                 {/* Why Choose Us */}
-                {/* <Card className="border-0 shadow-lg bg-gradient-to-br from-green-50 to-emerald-50">
+                <Card className="border-0 shadow-lg bg-gradient-to-br from-green-50 to-emerald-50">
                   <CardContent className="p-6">
                     <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">
                       {t("contact.reasons.title")}
@@ -455,7 +455,7 @@ export default function ContactPage() {
                       ))}
                     </div>
                   </CardContent>
-                </Card> */}
+                </Card>
 
                 {/* Business Hours */}
                 {/* <Card className="border-0 shadow-lg bg-gradient-to-br from-orange-50 to-yellow-50">

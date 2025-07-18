@@ -50,7 +50,6 @@ export default function SubscriptionPage() {
                 {t("subscription.badge")}
               </span>
             </div>
-
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
               {t("subscription.title")}
             </h1>
@@ -60,6 +59,7 @@ export default function SubscriptionPage() {
             <p className="text-lg text-white/80 leading-relaxed max-w-2xl mx-auto">
               {t("subscription.description")}
             </p>
+            ""
           </div>
         </div>
         <div className="absolute bottom-0 left-0 right-0 ">
@@ -176,8 +176,8 @@ export default function SubscriptionPage() {
               {/* Annual Plan - Most Popular */}
               <Card className="relative border-2 border-[#7257FF] shadow-2xl scale-105 bg-gradient-to-b from-white to-purple-50">
                 {/* Popular Badge */}
-                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-20">
-                  <Badge className="bg-gradient-to-r from-[#7257FF] to-purple-600 text-white px-8 py-3 text-base font-bold shadow-lg">
+                <div className="absolute -top-6 left-1 transform translate-x-1/4 z-20">
+                  <Badge className="bg-gradient-to-r from-[#7257FF] to-purple-600 text-white px-8 py-3 text-sm font-bold shadow-lg">
                     <Crown className="h-5 w-5 mr-2" />
                     MAIS POPULAR
                   </Badge>
@@ -289,7 +289,7 @@ export default function SubscriptionPage() {
                       },
                       {
                         name: t("subscription.comparison.features.caregivers"),
-                        basic: "5",
+                        basic: "3",
                         plus: "",
                         icon: Users,
                       },
