@@ -1,17 +1,18 @@
-"use client"
-
-import { Button } from "@/components/ui/button"
-import { Globe } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { Globe } from "lucide-react";
 
 interface LanguageSwitcherProps {
-  currentLang: "pt" | "en"
-  onLanguageChange: (lang: "pt" | "en") => void
+  currentLang: "pt" | "en";
+  onLanguageChange: (lang: "pt" | "en") => void;
 }
 
-export function LanguageSwitcher({ currentLang, onLanguageChange }: LanguageSwitcherProps) {
+export function LanguageSwitcher({
+  currentLang,
+  onLanguageChange,
+}: LanguageSwitcherProps) {
   const toggleLanguage = () => {
-    onLanguageChange(currentLang === "pt" ? "en" : "pt")
-  }
+    onLanguageChange(currentLang === "pt" ? "en" : "pt");
+  };
 
   return (
     <Button
@@ -23,5 +24,5 @@ export function LanguageSwitcher({ currentLang, onLanguageChange }: LanguageSwit
       <Globe className="h-4 w-4" />
       {currentLang.toUpperCase()}
     </Button>
-  )
+  );
 }

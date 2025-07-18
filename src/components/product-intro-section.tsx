@@ -1,38 +1,32 @@
-"use client"
+import { Card, CardContent } from "@/components/ui/card";
+import { Watch, Wifi, Brain, ArrowRight } from "lucide-react";
+import { useTranslationsContext } from "@/lib/i18n";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router";
 
-import { Card, CardContent } from "@/components/ui/card"
-import { Watch, Wifi, Brain, ArrowRight } from "lucide-react"
-import { useTranslations, type Language } from "@/lib/i18n"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-
-interface ProductIntroSectionProps {
-  lang: Language
-}
-
-export function ProductIntroSection({ lang }: ProductIntroSectionProps) {
-  const { t } = useTranslations(lang)
+export function ProductIntroSection() {
+  const { t } = useTranslationsContext();
 
   const features = [
     {
       icon: Watch,
-      title: t("product_intro.bracelet.title"),
-      description: t("product_intro.bracelet.description"),
+      title: t("product_intro.bracelet.title") as string,
+      description: t("product_intro.bracelet.description") as string,
       image: "/placeholder.svg?height=300&width=400",
     },
     {
       icon: Wifi,
-      title: t("product_intro.totem.title"),
-      description: t("product_intro.totem.description"),
+      title: t("product_intro.totem.title") as string,
+      description: t("product_intro.totem.description") as string,
       image: "/placeholder.svg?height=300&width=400",
     },
     {
       icon: Brain,
-      title: t("product_intro.ai.title"),
-      description: t("product_intro.ai.description"),
+      title: t("product_intro.ai.title") as string,
+      description: t("product_intro.ai.description") as string,
       image: "/placeholder.svg?height=300&width=400",
     },
-  ]
+  ];
 
   return (
     <section className="py-20 bg-gradient-to-br from-gray-50 to-[#7257FF]/5">
@@ -44,14 +38,18 @@ export function ProductIntroSection({ lang }: ProductIntroSectionProps) {
                 {t("product_intro.title")}
               </span>
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">{t("product_intro.subtitle")}</p>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              {t("product_intro.subtitle")}
+            </p>
           </div>
 
           <div className="space-y-16">
             {features.map((feature, index) => (
               <div
                 key={index}
-                className={`grid lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? "lg:grid-flow-col-dense" : ""}`}
+                className={`grid lg:grid-cols-2 gap-12 items-center ${
+                  index % 2 === 1 ? "lg:grid-flow-col-dense" : ""
+                }`}
               >
                 <div className={index % 2 === 1 ? "lg:col-start-2" : ""}>
                   <Card className="border-0 shadow-2xl bg-white/70 backdrop-blur-md overflow-hidden">
@@ -65,21 +63,29 @@ export function ProductIntroSection({ lang }: ProductIntroSectionProps) {
                   </Card>
                 </div>
 
-                <div className={`space-y-6 ${index % 2 === 1 ? "lg:col-start-1 lg:row-start-1" : ""}`}>
+                <div
+                  className={`space-y-6 ${
+                    index % 2 === 1 ? "lg:col-start-1 lg:row-start-1" : ""
+                  }`}
+                >
                   <div className="flex items-center gap-4">
                     <div className="p-3 bg-gradient-to-r from-[#7257FF] to-blue-600 rounded-2xl">
                       <feature.icon className="h-8 w-8 text-white" />
                     </div>
-                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900">{feature.title}</h3>
+                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
+                      {feature.title}
+                    </h3>
                   </div>
-                  <p className="text-lg text-gray-600 leading-relaxed">{feature.description}</p>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    {feature.description}
+                  </p>
                 </div>
               </div>
             ))}
           </div>
 
           <div className="text-center mt-16">
-            <Link href="/products">
+            <Link to="/products">
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-[#7257FF] to-blue-600 hover:from-[#7257FF]/90 hover:to-blue-600/90 text-white px-10 py-6 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
@@ -92,5 +98,5 @@ export function ProductIntroSection({ lang }: ProductIntroSectionProps) {
         </div>
       </div>
     </section>
-  )
+  );
 }

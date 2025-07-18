@@ -12,19 +12,16 @@ import {
   TrendingDown,
   Gift,
 } from "lucide-react";
-import { useTranslations, type Language, getStoredLanguage } from "@/lib/i18n";
-import { useState, useEffect } from "react";
 import { PRICING, CALCULATED_PRICING, formatPrice } from "@/lib/pricing";
 import { Link } from "react-router";
+import { useTranslationsContext } from "@/lib/i18n";
 
 export default function ProductsPage() {
-  const [currentLang, setCurrentLang] = useState<Language>("pt");
-  const { t } = useTranslations(currentLang);
-
-  // Load stored language on mount
-  useEffect(() => {
-    setCurrentLang(getStoredLanguage());
-  }, []);
+  const {
+    t,
+    lang: currentLang,
+    setLang: setCurrentLang,
+  } = useTranslationsContext();
 
   const handleSubscribe = () => {
     alert(
@@ -34,23 +31,23 @@ export default function ProductsPage() {
 
   const products = [
     {
-      name: t("products.items.bracelet.name"),
-      description: t("products.items.bracelet.description"),
-      features: t("products.items.bracelet.features"),
+      name: t("products.items.bracelet.name") as string,
+      description: t("products.items.bracelet.description") as string,
+      features: t("products.items.bracelet.features") as string[], // This one is correctly 'as string[]'
       price: formatPrice(PRICING.products.bracelet),
       image: "/placeholder.svg?height=300&width=400",
     },
     {
-      name: t("products.items.totem.name"),
-      description: t("products.items.totem.description"),
-      features: t("products.items.totem.features"),
+      name: t("products.items.totem.name") as string,
+      description: t("products.items.totem.description") as string,
+      features: t("products.items.totem.features") as string[],
       price: formatPrice(PRICING.products.totem),
       image: "/placeholder.svg?height=300&width=400",
     },
     {
-      name: t("products.items.kit.name"),
-      description: t("products.items.kit.description"),
-      features: t("products.items.kit.features"),
+      name: t("products.items.kit.name") as string,
+      description: t("products.items.kit.description") as string,
+      features: t("products.items.kit.features") as string[],
       price: formatPrice(PRICING.products.kit),
       originalPrice: formatPrice(CALCULATED_PRICING.individualTotal),
       hardwareSavings: formatPrice(CALCULATED_PRICING.kitDiscount),
@@ -62,7 +59,6 @@ export default function ProductsPage() {
       image: "/placeholder.svg?height=300&width=400",
     },
   ];
-
   return (
     <div className="min-h-screen">
       <Navigation currentLang={currentLang} onLanguageChange={setCurrentLang} />
@@ -264,7 +260,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      <Footer currentLang={currentLang} />
+      <Footer />
     </div>
   );
 }

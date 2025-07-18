@@ -1,31 +1,30 @@
-"use client"
-
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Check, Star } from "lucide-react"
-import { useTranslations, type Language } from "@/lib/i18n"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Check, Star } from "lucide-react";
+import { useTranslationsContext } from "@/lib/i18n";
 
 interface ProductCardProps {
-  lang: Language
   product: {
-    name: string
-    description: string
-    features: string[]
-    price: string
-    image?: string
-    isPopular?: boolean
-  }
-  onSubscribe: () => void
+    name: string;
+    description: string;
+    features: string[];
+    price: string;
+    image?: string;
+    isPopular?: boolean;
+  };
+  onSubscribe: () => void;
 }
 
-export function ProductCard({ lang, product, onSubscribe }: ProductCardProps) {
-  const { t } = useTranslations(lang)
+export function ProductCard({ product, onSubscribe }: ProductCardProps) {
+  const { t } = useTranslationsContext();
 
   return (
     <Card
       className={`relative overflow-hidden transition-all duration-300 hover:shadow-2xl hover:scale-105 ${
-        product.isPopular ? "border-2 border-[#7257FF]/30 shadow-xl" : "border border-gray-200"
+        product.isPopular
+          ? "border-2 border-[#7257FF]/30 shadow-xl"
+          : "border border-gray-200"
       }`}
     >
       {product.isPopular && (
@@ -39,13 +38,19 @@ export function ProductCard({ lang, product, onSubscribe }: ProductCardProps) {
 
       {product.image && (
         <div className="relative overflow-hidden">
-          <img src={product.image || "/placeholder.svg"} alt={product.name} className="w-full h-48 object-cover" />
+          <img
+            src={product.image || "/placeholder.svg"}
+            alt={product.name}
+            className="w-full h-48 object-cover"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
         </div>
       )}
 
       <CardHeader className="pb-4">
-        <CardTitle className="text-2xl font-bold text-gray-900">{product.name}</CardTitle>
+        <CardTitle className="text-2xl font-bold text-gray-900">
+          {product.name}
+        </CardTitle>
         <p className="text-gray-600 leading-relaxed">{product.description}</p>
       </CardHeader>
 
@@ -60,7 +65,9 @@ export function ProductCard({ lang, product, onSubscribe }: ProductCardProps) {
         </div>
 
         <div className="pt-4 border-t border-gray-100">
-          <div className="text-3xl font-bold text-[#7257FF] mb-4">{product.price}</div>
+          <div className="text-3xl font-bold text-[#7257FF] mb-4">
+            {product.price}
+          </div>
           <Button
             onClick={onSubscribe}
             className={`w-full py-3 rounded-xl font-medium transition-all duration-300 ${
@@ -74,5 +81,5 @@ export function ProductCard({ lang, product, onSubscribe }: ProductCardProps) {
         </div>
       </CardContent>
     </Card>
-  )
+  );
 }

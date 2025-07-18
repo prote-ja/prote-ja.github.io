@@ -1,46 +1,48 @@
-"use client"
+import type React from "react";
 
-import type React from "react"
-
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Send, CheckCircle, AlertCircle } from "lucide-react"
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Send, CheckCircle, AlertCircle } from "lucide-react";
 
 export function ContactForm() {
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle")
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<
+    "idle" | "success" | "error"
+  >("idle");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
     subject: "",
     message: "",
-  })
+  });
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+    e.preventDefault();
+    setIsSubmitting(true);
 
     // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 2000))
+    await new Promise((resolve) => setTimeout(resolve, 2000));
 
-    setIsSubmitting(false)
-    setSubmitStatus("success")
-    setFormData({ name: "", email: "", phone: "", subject: "", message: "" })
+    setIsSubmitting(false);
+    setSubmitStatus("success");
+    setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
 
     // Reset status after 3 seconds
-    setTimeout(() => setSubmitStatus("idle"), 3000)
-  }
+    setTimeout(() => setSubmitStatus("idle"), 3000);
+  };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData((prev) => ({
       ...prev,
       [e.target.name]: e.target.value,
-    }))
-  }
+    }));
+  };
 
   return (
     <Card className="shadow-2xl border-0 bg-white/80 backdrop-blur-sm">
@@ -55,7 +57,9 @@ export function ContactForm() {
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-700">Nome completo</label>
+              <label className="text-sm font-medium text-gray-700">
+                Nome completo
+              </label>
               <Input
                 name="name"
                 value={formData.name}
@@ -66,7 +70,9 @@ export function ContactForm() {
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-700">E-mail</label>
+              <label className="text-sm font-medium text-gray-700">
+                E-mail
+              </label>
               <Input
                 name="email"
                 type="email"
@@ -80,7 +86,9 @@ export function ContactForm() {
 
           <div className="grid md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-700">Telefone</label>
+              <label className="text-sm font-medium text-gray-700">
+                Telefone
+              </label>
               <Input
                 name="phone"
                 value={formData.phone}
@@ -90,7 +98,9 @@ export function ContactForm() {
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm font-medium text-gray-700">Assunto</label>
+              <label className="text-sm font-medium text-gray-700">
+                Assunto
+              </label>
               <Input
                 name="subject"
                 value={formData.subject}
@@ -102,7 +112,9 @@ export function ContactForm() {
           </div>
 
           <div className="space-y-2">
-            <label className="text-sm font-medium text-gray-700">Mensagem</label>
+            <label className="text-sm font-medium text-gray-700">
+              Mensagem
+            </label>
             <Textarea
               name="message"
               value={formData.message}
@@ -134,18 +146,22 @@ export function ContactForm() {
           {submitStatus === "success" && (
             <div className="flex items-center gap-2 text-green-600 bg-green-50 p-3 rounded-xl">
               <CheckCircle className="h-5 w-5" />
-              <span className="text-sm font-medium">Mensagem enviada com sucesso!</span>
+              <span className="text-sm font-medium">
+                Mensagem enviada com sucesso!
+              </span>
             </div>
           )}
 
           {submitStatus === "error" && (
             <div className="flex items-center gap-2 text-red-600 bg-red-50 p-3 rounded-xl">
               <AlertCircle className="h-5 w-5" />
-              <span className="text-sm font-medium">Erro ao enviar mensagem. Tente novamente.</span>
+              <span className="text-sm font-medium">
+                Erro ao enviar mensagem. Tente novamente.
+              </span>
             </div>
           )}
         </form>
       </CardContent>
     </Card>
-  )
+  );
 }

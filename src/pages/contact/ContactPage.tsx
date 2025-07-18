@@ -22,12 +22,15 @@ import {
   Brain,
   Headphones,
 } from "lucide-react";
-import { useState, useEffect } from "react";
-import { useTranslations, type Language, getStoredLanguage } from "@/lib/i18n";
+import { useState } from "react";
+import { useTranslationsContext } from "@/lib/i18n";
 
 export default function ContactPage() {
-  const [currentLang, setCurrentLang] = useState<Language>("pt");
-  const { t } = useTranslations(currentLang);
+  const {
+    t,
+    lang: currentLang,
+    setLang: setCurrentLang,
+  } = useTranslationsContext();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<
     "idle" | "success" | "error"
@@ -39,11 +42,6 @@ export default function ContactPage() {
     subject: "",
     message: "",
   });
-
-  // Load stored language on mount
-  useEffect(() => {
-    setCurrentLang(getStoredLanguage());
-  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -267,7 +265,9 @@ export default function ContactPage() {
                             onChange={handleChange}
                             required
                             className="border-gray-200 focus:border-[#7257FF] focus:ring-[#7257FF] h-12"
-                            placeholder={t("contact.form.namePlaceholder")}
+                            placeholder={
+                              t("contact.form.namePlaceholder") as string
+                            }
                           />
                         </div>
 
@@ -283,7 +283,9 @@ export default function ContactPage() {
                             onChange={handleChange}
                             required
                             className="border-gray-200 focus:border-[#7257FF] focus:ring-[#7257FF] h-12"
-                            placeholder={t("contact.form.emailPlaceholder")}
+                            placeholder={
+                              t("contact.form.emailPlaceholder") as string
+                            }
                           />
                         </div>
                       </div>
@@ -298,7 +300,9 @@ export default function ContactPage() {
                             value={formData.phone}
                             onChange={handleChange}
                             className="border-gray-200 focus:border-[#7257FF] focus:ring-[#7257FF] h-12"
-                            placeholder={t("contact.form.phonePlaceholder")}
+                            placeholder={
+                              t("contact.form.phonePlaceholder") as string
+                            }
                           />
                         </div>
 
@@ -313,7 +317,9 @@ export default function ContactPage() {
                             onChange={handleChange}
                             required
                             className="border-gray-200 focus:border-[#7257FF] focus:ring-[#7257FF] h-12"
-                            placeholder={t("contact.form.subjectPlaceholder")}
+                            placeholder={
+                              t("contact.form.subjectPlaceholder") as string
+                            }
                           />
                         </div>
                       </div>
@@ -330,7 +336,9 @@ export default function ContactPage() {
                           required
                           rows={6}
                           className="border-gray-200 focus:border-[#7257FF] focus:ring-[#7257FF] resize-none"
-                          placeholder={t("contact.form.messagePlaceholder")}
+                          placeholder={
+                            t("contact.form.messagePlaceholder") as string
+                          }
                         />
                       </div>
 
@@ -477,7 +485,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <Footer currentLang={currentLang} />
+      <Footer />
     </div>
   );
 }

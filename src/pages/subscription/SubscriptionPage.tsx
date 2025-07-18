@@ -16,18 +16,15 @@ import {
   Star,
   Sparkles,
 } from "lucide-react";
-import { useTranslations, type Language, getStoredLanguage } from "@/lib/i18n";
-import { useState, useEffect } from "react";
+import { useTranslationsContext } from "@/lib/i18n";
 import { PRICING, CALCULATED_PRICING, formatPrice } from "@/lib/pricing";
 
 export default function SubscriptionPage() {
-  const [currentLang, setCurrentLang] = useState<Language>("pt");
-  const { t } = useTranslations(currentLang);
-
-  // Load stored language on mount
-  useEffect(() => {
-    setCurrentLang(getStoredLanguage());
-  }, []);
+  const {
+    t,
+    lang: currentLang,
+    setLang: setCurrentLang,
+  } = useTranslationsContext();
 
   return (
     <div className="min-h-screen">
@@ -105,7 +102,7 @@ export default function SubscriptionPage() {
                   </div>
 
                   <div className="space-y-4 mb-8">
-                    {t("subscription.plans.basic.features").map(
+                    {(t("subscription.plans.basic.features") as string[]).map(
                       (feature: string, index: number) => (
                         <div key={index} className="flex items-center gap-3">
                           <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
@@ -147,7 +144,7 @@ export default function SubscriptionPage() {
                   </div>
 
                   <div className="space-y-4 mb-8">
-                    {t("subscription.plans.monthly.features").map(
+                    {(t("subscription.plans.monthly.features") as string[]).map(
                       (feature: string, index: number) => (
                         <div key={index} className="flex items-center gap-3">
                           <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
@@ -206,7 +203,7 @@ export default function SubscriptionPage() {
                   </div>
 
                   <div className="space-y-4 mb-8">
-                    {t("subscription.plans.yearly.features").map(
+                    {(t("subscription.plans.yearly.features") as string[]).map(
                       (feature: string, index: number) => (
                         <div key={index} className="flex items-center gap-3">
                           <Check className="h-5 w-5 text-[#7257FF] flex-shrink-0" />
@@ -425,7 +422,7 @@ export default function SubscriptionPage() {
         </div>
       </section>
 
-      <Footer currentLang={currentLang} />
+      <Footer />
     </div>
   );
 }

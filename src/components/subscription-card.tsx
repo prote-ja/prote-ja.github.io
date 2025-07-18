@@ -1,23 +1,25 @@
-"use client"
-
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Check, Crown } from "lucide-react"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Check, Crown } from "lucide-react";
 
 interface SubscriptionCardProps {
   plan: {
-    name: string
-    price: string
-    originalPrice?: string
-    features: string[]
-    isPopular?: boolean
-  }
-  onSubscribe: () => void
-  subscribeText: string
+    name: string;
+    price: string;
+    originalPrice?: string;
+    features: string[];
+    isPopular?: boolean;
+  };
+  onSubscribe: () => void;
+  subscribeText: string;
 }
 
-export function SubscriptionCard({ plan, onSubscribe, subscribeText }: SubscriptionCardProps) {
+export function SubscriptionCard({
+  plan,
+  onSubscribe,
+  subscribeText,
+}: SubscriptionCardProps) {
   return (
     <Card
       className={`relative transition-all duration-300 hover:shadow-xl ${
@@ -36,10 +38,16 @@ export function SubscriptionCard({ plan, onSubscribe, subscribeText }: Subscript
       )}
 
       <CardHeader className="text-center pb-4">
-        <CardTitle className="text-xl font-bold text-gray-900">{plan.name}</CardTitle>
+        <CardTitle className="text-xl font-bold text-gray-900">
+          {plan.name}
+        </CardTitle>
         <div className="space-y-1">
           <div className="text-3xl font-bold text-purple-600">{plan.price}</div>
-          {plan.originalPrice && <div className="text-sm text-gray-500 line-through">{plan.originalPrice}</div>}
+          {plan.originalPrice && (
+            <div className="text-sm text-gray-500 line-through">
+              {plan.originalPrice}
+            </div>
+          )}
         </div>
       </CardHeader>
 
@@ -65,5 +73,5 @@ export function SubscriptionCard({ plan, onSubscribe, subscribeText }: Subscript
         </Button>
       </CardContent>
     </Card>
-  )
+  );
 }

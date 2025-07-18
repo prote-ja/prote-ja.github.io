@@ -2,7 +2,11 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Shield, Globe } from "lucide-react";
 import { Link, useLocation } from "react-router";
-import { useTranslations, type Language, setStoredLanguage } from "@/lib/i18n";
+import {
+  setStoredLanguage,
+  useTranslationsContext,
+  type Language,
+} from "@/lib/i18n";
 
 interface NavigationProps {
   currentLang: Language;
@@ -13,7 +17,7 @@ export function Navigation({ currentLang, onLanguageChange }: NavigationProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation(); // Changed: use useLocation hook
-  const { t } = useTranslations(currentLang);
+  const { t } = useTranslationsContext();
 
   // Always start transparent and change on scroll for all pages
   useEffect(() => {
@@ -30,11 +34,11 @@ export function Navigation({ currentLang, onLanguageChange }: NavigationProps) {
   }, [location.pathname]); // Changed: use location.pathname
 
   const navItems = [
-    { name: t("nav.home"), to: "/" }, // Changed href to to
-    { name: t("nav.about"), to: "/about" }, // Changed href to to
-    { name: t("nav.products"), to: "/products" }, // Changed href to to
-    { name: t("nav.subscription"), to: "/subscription" }, // Changed href to to
-    { name: t("nav.contact"), to: "/contact" }, // Changed href to to
+    { name: t("nav.home") as string, to: "/" }, // Changed href to to
+    { name: t("nav.about") as string, to: "/about" }, // Changed href to to
+    { name: t("nav.products") as string, to: "/products" }, // Changed href to to
+    { name: t("nav.subscription") as string, to: "/subscription" }, // Changed href to to
+    { name: t("nav.contact") as string, to: "/contact" }, // Changed href to to
   ];
 
   const toggleLanguage = () => {

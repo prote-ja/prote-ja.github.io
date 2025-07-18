@@ -14,12 +14,14 @@ import {
 } from "lucide-react";
 import { Link } from "react-router";
 import { Button } from "@/components/ui/button";
-import { useTranslations, type Language } from "@/lib/i18n";
-import { useState } from "react";
+import { useTranslationsContext } from "@/lib/i18n";
 
 export default function AboutPage() {
-  const [currentLang, setCurrentLang] = useState<Language>("pt");
-  const { t } = useTranslations(currentLang);
+  const {
+    t,
+    lang: currentLang,
+    setLang: setCurrentLang,
+  } = useTranslationsContext();
 
   return (
     <div className="min-h-screen">
@@ -346,7 +348,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <Footer currentLang={currentLang} />
+      <Footer />
     </div>
   );
 }

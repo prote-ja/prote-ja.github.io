@@ -16,13 +16,16 @@ import {
   Handshake,
 } from "lucide-react";
 
-import { useTranslations, type Language, getStoredLanguage } from "@/lib/i18n";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router";
+import { getStoredLanguage, useTranslationsContext } from "./lib/i18n";
 
 export default function HomePage() {
-  const [currentLang, setCurrentLang] = useState<Language>("pt");
-  const { t } = useTranslations(currentLang);
+  const {
+    t,
+    lang: currentLang,
+    setLang: setCurrentLang,
+  } = useTranslationsContext();
 
   // Load stored language on mount
   useEffect(() => {
@@ -32,29 +35,29 @@ export default function HomePage() {
   const solutions = [
     {
       icon: Watch,
-      title: t("solution.bracelet.title"),
-      description: t("solution.bracelet.description"),
+      title: t("solution.bracelet.title") as string,
+      description: t("solution.bracelet.description") as string,
       image: "/placeholder.svg?height=300&width=400",
       color: "from-blue-500 to-cyan-500",
     },
     {
       icon: Wifi,
-      title: t("solution.totem.title"),
-      description: t("solution.totem.description"),
+      title: t("solution.totem.title") as string,
+      description: t("solution.totem.description") as string,
       image: "/placeholder.svg?height=300&width=400",
       color: "from-green-500 to-emerald-500",
     },
     {
       icon: Smartphone,
-      title: t("solution.platform.title"),
-      description: t("solution.platform.description"),
+      title: t("solution.platform.title") as string,
+      description: t("solution.platform.description") as string,
       image: "/placeholder.svg?height=300&width=400",
       color: "from-orange-500 to-red-500",
     },
     {
       icon: Brain,
-      title: t("solution.ai.title"),
-      description: t("solution.ai.description"),
+      title: t("solution.ai.title") as string,
+      description: t("solution.ai.description") as string,
       image: "/placeholder.svg?height=300&width=400",
       color: "from-[#7257FF] to-purple-600",
     },
@@ -353,7 +356,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <Footer currentLang={currentLang} />
+      <Footer />
     </div>
   );
 }

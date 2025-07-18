@@ -1,8 +1,6 @@
-"use client"
-
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Shield, Heart, Award, Battery, Users } from "lucide-react"
-import Link from "next/link"
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Shield, Heart, Award, Battery, Users } from "lucide-react";
+import { Link } from "react-router";
 
 export function HeroSection() {
   return (
@@ -36,7 +34,9 @@ export function HeroSection() {
               {/* Badge */}
               <div className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-md rounded-full border border-white/20 mb-8">
                 <Shield className="h-5 w-5 text-white" />
-                <span className="text-sm font-medium">Tecnologia que salva vidas</span>
+                <span className="text-sm font-medium">
+                  Tecnologia que salva vidas
+                </span>
               </div>
 
               {/* Main Content */}
@@ -45,17 +45,19 @@ export function HeroSection() {
               </h1>
 
               <p className="text-xl md:text-2xl text-white/90 mb-6 font-medium leading-relaxed">
-                Soluções inteligentes, acessíveis e preventivas para pessoas em situação de vulnerabilidade
+                Soluções inteligentes, acessíveis e preventivas para pessoas em
+                situação de vulnerabilidade
               </p>
 
               <p className="text-lg text-white/80 mb-12 leading-relaxed max-w-2xl">
-                Combinamos hardware proprietário de alta autonomia, inteligência artificial preditiva e um modelo de
-                cuidado descentralizado para prevenir quedas e melhorar a qualidade de vida.
+                Combinamos hardware proprietário de alta autonomia, inteligência
+                artificial preditiva e um modelo de cuidado descentralizado para
+                prevenir quedas e melhorar a qualidade de vida.
               </p>
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-6 mb-16">
-                <Link href="/products">
+                <Link to="/products">
                   <Button
                     size="lg"
                     className="bg-white text-[#7257FF] hover:bg-white/90 px-10 py-6 text-lg rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 font-semibold"
@@ -65,7 +67,7 @@ export function HeroSection() {
                   </Button>
                 </Link>
 
-                <Link href="/contact">
+                <Link to="/contact">
                   <Button
                     size="lg"
                     variant="outline"
@@ -117,14 +119,18 @@ export function HeroSection() {
                   <div className="absolute -top-4 -left-4 bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border border-white/20">
                     <div className="flex items-center gap-3">
                       <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                      <span className="text-sm font-medium text-gray-800">Monitoramento 24/7</span>
+                      <span className="text-sm font-medium text-gray-800">
+                        Monitoramento 24/7
+                      </span>
                     </div>
                   </div>
 
                   <div className="absolute -bottom-4 -right-4 bg-white/95 backdrop-blur-md rounded-2xl p-4 shadow-xl border border-white/20">
                     <div className="flex items-center gap-3">
                       <Heart className="h-4 w-4 text-red-500" />
-                      <span className="text-sm font-medium text-gray-800">Cuidado Humano</span>
+                      <span className="text-sm font-medium text-gray-800">
+                        Cuidado Humano
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -144,5 +150,5 @@ export function HeroSection() {
         </svg>
       </div>
     </section>
-  )
+  );
 }

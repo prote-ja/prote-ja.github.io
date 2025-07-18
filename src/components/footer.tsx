@@ -1,13 +1,10 @@
+import { useTranslationsContext } from "@/lib/i18n";
 import { Shield, Heart, Mail, MapPin } from "lucide-react";
-import { Link } from "react-router"; // Changed: import Link from "react-router-dom"
-import { useTranslations, type Language } from "@/lib/i18n";
+import { Link } from "react-router";
 
-interface FooterProps {
-  currentLang: Language;
-}
+export function Footer() {
+  const { t } = useTranslationsContext();
 
-export function Footer({ currentLang }: FooterProps) {
-  const { t } = useTranslations(currentLang);
   const currentYear = new Date().getFullYear();
 
   return (
