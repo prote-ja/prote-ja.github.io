@@ -59,7 +59,6 @@ export default function SubscriptionPage() {
             <p className="text-lg text-white/80 leading-relaxed max-w-2xl mx-auto">
               {t("subscription.description")}
             </p>
-            ""
           </div>
         </div>
         <div className="absolute bottom-0 left-0 right-0 ">

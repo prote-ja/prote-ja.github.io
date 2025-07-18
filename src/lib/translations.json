@@ -10,8 +10,8 @@
     "hero": {
       "badge": "Tecnologia que cuida",
       "title": "Proteja quem importa, onde estiver",
-      "subtitle": "Tecnologia acessível e inteligente para proteger quem mais precisa — antes que o pior aconteça.",
-      "description": "Desenvolvemos um sistema completo de proteção baseado em inteligência artificial preditiva, hardware proprietário de longa duração e um modelo inovador de cuidado compartilhado — tudo para prevenir quedas e dar mais segurança e autonomia a quem você ama.",
+      "subtitle": "Tecnologia acessível e inteligente para proteger quem mais precisa, antes que o pior aconteça.",
+      "description": "Desenvolvemos um sistema completo de proteção baseado em inteligência artificial preditiva, hardware proprietário de longa duração e um modelo inovador de cuidado compartilhado, tudo para prevenir quedas e dar mais segurança e autonomia a quem você ama.",
       "cta": "Conheça a solução",
       "contact": "Entre em contato",
       "stats": {
@@ -25,14 +25,14 @@
     },
     "solution": {
       "title": "Como a ProteJÁ Funciona",
-      "subtitle": "O ProteJÁ é mais que uma pulseira — é um ecossistema completo de cuidado preventivo. Unimos tecnologia, empatia e conectividade para monitorar, alertar e, principalmente, prevenir.",
+      "subtitle": "O ProteJÁ é mais que uma pulseira, é um ecossistema completo de cuidado preventivo. Unimos tecnologia, empatia e conectividade para monitorar, alertar e, principalmente, prevenir.",
       "bracelet": {
         "title": "Pulseira Inteligente",
         "description": "A pulseira ProteJÁ utiliza sensores inerciais de alta precisão para monitorar continuamente os movimentos do usuário. Com até 3 meses de bateria e design à prova d'água, é discreta, leve e pensada para o dia a dia de quem mais precisa de cuidado."
       },
       "totem": {
         "title": "Totens de Geolocalização Segura",
-        "description": "Os totens funcionam como âncoras seguras em diferentes cômodos da residência. Eles permitem que o sistema identifique com precisão a localização do usuário dentro de casa e, se ele sair da zona de segurança, os cuidadores são alertados imediatamente."
+        "description": "Os totens funcionam como âncoras seguras em diferentes cômodos. Eles permitem que o sistema identifique com precisão a localização do usuário dentro de casa e, se ele sair da zona de segurança, os cuidadores são alertados imediatamente."
       },
       "platform": {
         "title": "Plataforma Multi-Cuidador",
@@ -40,18 +40,18 @@
       },
       "ai": {
         "title": "IA Preditiva (em desenvolvimento)",
-        "description": "Nosso algoritmo de IA aprende os padrões únicos de movimento de cada usuário e identifica alterações sutis que podem indicar um risco iminente — como perda de equilíbrio ou inatividade inesperada. A meta é clara: prever para prevenir."
+        "description": "Nosso algoritmo de IA aprende os padrões únicos de movimento de cada usuário e identifica alterações sutis que podem indicar um risco iminente, como perda de equilíbrio ou inatividade inesperada. A meta é clara: prever para prevenir."
       }
     },
     "about": {
       "badge": "Uma História de Cuidado",
       "title": "Transformando dor pessoal em proteção coletiva",
-      "subtitle": "Nascemos de experiências reais — impulsionados por empatia, guiados por inovação.",
+      "subtitle": "Nascemos de experiências reais, impulsionados por empatia e guiados pela inovação.",
       "description": "A ProteJÁ não é apenas uma empresa de tecnologia. Somos uma missão que começou com a dor da perda e se transformou no propósito de proteger vidas.",
       "origin": {
         "title": "O Início da Nossa Missão",
         "subtitle": "Como a experiência pessoal moldou nosso propósito",
-        "story1": "A ProteJÁ surgiu em 2024, quando Rafael Farias Meneses e Reinaldo Kaminski Neto, estudantes de Engenharia da Computação na UTFPR, decidiram participar do programa Campus Mobile. Uma conversa mudou tudo: Reinaldo compartilhou a história de sua avó, que sofreu uma queda e permaneceu desacordada por horas. Rafael se conectou com a dor — ele havia perdido seu pai, também idoso, após uma queda doméstica. Naquele momento, nasceu uma missão: evitar que outras famílias passem por isso.",
+        "story1": "A ProteJÁ surgiu em 2024, quando Rafael Farias Meneses e Reinaldo Kaminski Neto, estudantes de Engenharia da Computação na UTFPR, decidiram participar do programa Campus Mobile. Uma conversa mudou tudo: Reinaldo compartilhou a história de sua avó, que sofreu uma queda e permaneceu desacordada por horas. Rafael se conectou com a dor, pois havia perdido seu pai, também idoso, após uma queda doméstica. Naquele momento, nasceu uma missão: evitar que outras famílias passem por isso.",
         "story2": "Criaram então o primeiro protótipo: uma pulseira que detectava quedas. Levaram a ideia até São Paulo, onde um feedback mudou o rumo do projeto: 'Detectar a queda ainda é reativo, não impede que ela aconteça'. A reflexão os levou a adaptar conhecimentos que já dominavam para desenvolver um algoritmo preditivo, capaz de antecipar comportamentos de risco.",
         "achievement": "Com essa inovação, voltaram à final do Campus Mobile no Rio de Janeiro e conquistaram o 1º lugar nacional, validando o imenso potencial de prever para prevenir."
       },
@@ -73,7 +73,7 @@
         "badge": "Validação Real",
         "title": "Parceria com o Lar dos Idosos da APA",
         "subtitle": "Testando e comprovando nosso impacto no mundo real",
-        "story1": "Em 2025, a ProteJÁ realizou sua primeira validação em campo na APA – Associação Promocional e Assistencial de Toledo (Lar dos Idosos), uma instituição filantrópica referência em cuidado humanizado.",
+        "story1": "Em 2025, a ProteJÁ realizou sua primeira validação em campo na APA, a Associação Promocional e Assistencial de Toledo (Lar dos Idosos), uma instituição filantrópica referência em cuidado humanizado.",
         "story2": "Apresentamos nossa solução para a direção, equipe de enfermagem e alguns residentes. O retorno foi extremamente positivo. As enfermeiras destacaram como o sistema poderia reduzir a sobrecarga de trabalho e melhorar a resposta em emergências.",
         "story3": "Essa experiência validou a aplicabilidade prática da nossa tecnologia e reforçou o valor da ProteJÁ como uma ferramenta de apoio crucial para o dia a dia de instituições de longa permanência.",
         "users": "Usuários testaram o MVP",
@@ -111,24 +111,24 @@
         "rafael": {
           "name": "Rafael Farias Meneses",
           "role": "CEO & Co-fundador",
-          "description": "Idealizador e estrategista, focado em criar soluções que unem tecnologia e cuidado humano. A perda de seu pai é a força motriz por trás da missão da ProteJÁ."
+          "description": "É o responsável pela visão do produto, desenvolvimento do hardware, sistemas escaláveis e pela aplicação de IA para a predição de riscos."
         },
         "reinaldo": {
           "name": "Reinaldo Kaminski Neto",
-          "role": "CTO & Co-fundador",
-          "description": "Especialista em IA e sistemas embarcados, é o arquiteto da tecnologia preditiva. Sua expertise em detecção de anomalias é o cérebro por trás da nossa inovação."
+          "role": "CIO & Co-fundador",
+          "description": "Especialista em infraestrutura de nuvem e inteligência artificial, é o arquiteto por trás da segurança, performance e escalabilidade da plataforma ProteJÁ."
         }
       },
       "cta": {
         "title": "Vamos juntos transformar o cuidado no Brasil?",
         "description": "Entre em contato conosco e descubra como a ProteJÁ pode trazer mais segurança e tranquilidade para sua família ou instituição.",
-        "button": "Fale com um especialista"
+        "button": "Fale com nosso time"
       }
     },
     "products": {
       "badge": "Nosso Ecossistema de Cuidado",
       "title": "Uma Solução Completa de Proteção",
-      "subtitle": "Do hardware à inteligência artificial: tudo integrado para sua tranquilidade.",
+      "subtitle": "Do hardware à inteligência artificial, tudo integrado para sua tranquilidade.",
       "description": "Oferecemos um conjunto de produtos e serviços que funcionam em harmonia para garantir a melhor proteção preventiva.",
       "items": {
         "bracelet": {
@@ -153,7 +153,7 @@
         },
         "kit": {
           "name": "Kit Completo ProteJÁ",
-          "description": "A solução ideal para começar: inclui a pulseira, os totens e 1 ano de assinatura do plano ProteJÁ+.",
+          "description": "A solução ideal para começar, pois inclui a pulseira, os totens e 1 ano de assinatura do plano ProteJÁ+.",
           "features": [
             "1 Pulseira + 3 Totens",
             "1 ano de ProteJÁ+ incluso",
@@ -190,8 +190,8 @@
           "period": "Sempre",
           "features": [
             "Botão de pânico (SOS)",
-            "Geolocalização (área segura)",
-            "Localização em tempo real",
+            "Alerta de área segura",
+            "Identificação de cômodo",
             "Até 3 cuidadores",
             "Suporte via e-mail"
           ]
@@ -231,8 +231,8 @@
         },
         "features": {
           "sos": "Botão de Pânico (SOS)",
-          "geofencing": "Geolocalização (Área Segura)",
-          "location": "Localização em Tempo Real",
+          "geofencing": "Alerta de Área Segura",
+          "location": "Localização Interna (Cômodo)",
           "alerts": "Alertas de SOS e Saída",
           "caregivers": "Cuidadores Conectados",
           "fallDetection": "Detecção Inteligente de Quedas",
@@ -270,7 +270,7 @@
         "responseLabel": "Tempo médio de resposta",
         "emails": "100%",
         "emailsLabel": "de e-mails respondidos",
-        "founded": "2024",
+        "founded": "2025",
         "foundedLabel": "Fundada em"
       },
       "form": {
@@ -349,259 +349,259 @@
   "en": {
     "nav": {
       "home": "Home",
-      "about": "About",
-      "products": "Products",
-      "subscription": "Subscription",
+      "about": "Our Story",
+      "products": "Solution",
+      "subscription": "Plans",
       "contact": "Contact"
     },
     "hero": {
-      "badge": "Technology that saves lives",
+      "badge": "Technology that cares",
       "title": "Protect who matters, wherever they are",
-      "subtitle": "Smart, affordable, and preventive tech solutions for people in vulnerable situations",
-      "description": "We combine proprietary high-autonomy hardware, predictive artificial intelligence, and a decentralized care model to prevent falls and improve quality of life.",
-      "cta": "Discover our solution",
+      "subtitle": "Affordable and smart technology to protect those who need it most, before the worst happens.",
+      "description": "We developed a complete protection system based on predictive artificial intelligence, proprietary long-life hardware, and an innovative shared care model, all to prevent falls and provide more safety and autonomy to those you love.",
+      "cta": "Discover the solution",
       "contact": "Get in touch",
       "stats": {
         "battery": "3 months",
-        "batteryLabel": "battery life",
+        "batteryLabel": "of battery life",
         "users": "5 users",
-        "usersLabel": "tested our MVP",
+        "usersLabel": "validated our MVP",
         "award": "1st place",
         "awardLabel": "Campus Mobile 2025"
       }
     },
     "solution": {
       "title": "How ProteJÁ Works",
-      "subtitle": "A complete preventive care ecosystem",
+      "subtitle": "ProteJÁ is more than a wristband, it's a complete preventive care ecosystem. We combine technology, empathy, and connectivity to monitor, alert, and, most importantly, prevent.",
       "bracelet": {
-        "title": "Smart Bracelet",
-        "description": "Inertial sensors monitor movements 24/7 with up to 3 months of battery autonomy."
+        "title": "Smart Wristband",
+        "description": "The ProteJÁ wristband uses high-precision inertial sensors to continuously monitor the user's movements. With up to 3 months of battery life and a waterproof design, it is discreet, lightweight, and designed for the daily life of those who need care the most."
       },
       "totem": {
-        "title": "Geofencing System with Totems",
-        "description": "Multiple totems identify user location within the home ('living room', 'first floor'). When there's no connection for too long, we alert that the user has left the safe area."
+        "title": "Secure Geolocation Totems",
+        "description": "The totems act as secure anchors in different rooms. They allow the system to accurately identify the user's location within the home, and if they leave the safe zone, caregivers are immediately alerted."
       },
       "platform": {
         "title": "Multi-Caregiver Platform",
-        "description": "Web/mobile interface with real-time alerts via WhatsApp, SMS, email, and app. Multiple caregivers can monitor one bracelet."
+        "description": "Developed for network-based care, our platform allows multiple caregivers to monitor the same user. Alerts are sent in real time via WhatsApp, SMS, email, and app, ensuring that any risk is detected and addressed quickly."
       },
       "ai": {
         "title": "Predictive AI (in development)",
-        "description": "Personalized algorithm that learns unique movement patterns and anticipates risky behavior."
+        "description": "Our AI algorithm learns each user's unique movement patterns and identifies subtle changes that may indicate an imminent risk, such as recurring loss of balance or unexpected inactivity. The goal is clear: predict to prevent."
       }
     },
     "about": {
-      "badge": "A story of care",
-      "title": "Our Story",
-      "subtitle": "Born from personal experiences, driven by technology",
-      "description": "A journey that began with personal pain and transformed into a mission to save lives through technological innovation.",
+      "badge": "A Story of Care",
+      "title": "Transforming personal pain into collective protection",
+      "subtitle": "Born from real experiences, driven by empathy and guided by innovation.",
+      "description": "ProteJÁ is not just a technology company. We are a mission that began with the pain of loss and transformed into the purpose of protecting lives.",
       "origin": {
-        "title": "The Origin of ProteJÁ",
-        "subtitle": "A personal story that became a mission",
-        "story1": "ProteJÁ was founded in 2025 by Rafael Farias Meneses and Reinaldo Kaminski Neto, Computer Engineering students at UTFPR. It all started when they decided to enter Campus Mobile 2025, and Reinaldo shared that his grandmother had fallen in the bathroom and remained unconscious for hours.",
-        "story2": "During their final pitch, a judge pointed out that detecting falls is reactive — it doesn't prevent them. This insight was the breakthrough, leading to the development of our personalized predictive system.",
-        "achievement": "Thus we won 1st place nationally at Campus Mobile 2025."
+        "title": "The Beginning of Our Mission",
+        "subtitle": "How personal experience shaped our purpose",
+        "story1": "ProteJÁ was born in 2024, when Rafael Farias Meneses and Reinaldo Kaminski Neto, Computer Engineering students at UTFPR, decided to participate in the Campus Mobile program. One conversation changed everything: Reinaldo shared the story of his grandmother, who had fallen and remained unconscious for hours. Rafael connected with the pain, having lost his own elderly father after a domestic fall. At that moment, a mission was born: to prevent other families from going through the same thing.",
+        "story2": "They created their first prototype: a wristband that detected falls. They took the idea to São Paulo, where feedback changed the course of the project: 'Detecting the fall is still reactive, it doesn't prevent it from happening.' This insight led them to adapt knowledge they already had to develop a predictive algorithm capable of anticipating risky behaviors.",
+        "achievement": "With this innovation, they returned to the Campus Mobile finals in Rio de Janeiro and won 1st place nationally, validating the immense potential of predicting to prevent."
       },
       "cards": {
         "personal": {
           "title": "Personal Origin",
-          "description": "Founded by real experiences of loss and family care"
+          "description": "Born from real experiences of family loss and care."
         },
         "insight": {
-          "title": "Innovative Insight",
-          "description": "Shift from reactive detection to predictive prevention"
+          "title": "Innovative Vision",
+          "description": "The shift from reactive detection to prevention with predictive AI."
         },
         "recognition": {
-          "title": "Recognition",
-          "description": "1st place nationally at Campus Mobile 2025"
+          "title": "National Recognition",
+          "description": "1st place in the Campus Mobile 2025 innovation award."
         }
       },
       "apa": {
-        "badge": "Real Validation",
-        "title": "First Tests at APA",
-        "subtitle": "Partnership with the Promotional and Assistance Association of Toledo",
-        "story1": "In 2025, we visited APA – Elderly Home in Toledo-PR, a philanthropic institution that is a reference in humanized care for elderly people in vulnerable situations.",
-        "story2": "We presented our solution directly to management, nurses, and residents. The reception was extremely positive, highlighting the alignment of technology with the institution's real needs.",
-        "story3": "Nurses emphasized the potential to reduce their workload and improve emergency response, validating the real impact of ProteJÁ in the daily life of long-term care institutions.",
+        "badge": "Real-World Validation",
+        "title": "Partnership with the APA Elderly Home",
+        "subtitle": "Testing and proving our impact in the real world",
+        "story1": "In 2025, ProteJÁ conducted its first field validation at APA, the Promotional and Assistance Association of Toledo (Elderly Home), a philanthropic institution renowned for its humanized care.",
+        "story2": "We presented our solution to the management, nursing staff, and some residents. The feedback was extremely positive. The nurses highlighted how the system could reduce their workload and improve emergency response times.",
+        "story3": "This experience validated the practical applicability of our technology and reinforced the value of ProteJÁ as a crucial support tool for the daily life of long-term care institutions.",
         "users": "Users tested the MVP",
         "feedback": "Positive feedback"
       },
       "stage": {
-        "title": "Current Stage",
-        "subtitle": "Progress and next steps",
+        "title": "Current Stage and Next Steps",
+        "subtitle": "From validation to national expansion",
         "achievements": {
-          "title": "Achievements",
-          "prototypes": "Two working prototypes developed",
-          "testing": "MVP tested with 5 users",
-          "feedback": "Positive feedback from nurses"
+          "title": "Current Achievements",
+          "prototypes": "Two functional prototypes developed and tested",
+          "testing": "MVP validated in a long-term care institution",
+          "feedback": "Positive feedback from healthcare professionals"
         },
         "priorities": {
-          "title": "Current Priorities",
-          "hardware": "Finalizing commercial hardware",
-          "algorithm": "Advancing predictive algorithm",
-          "app": "Developing multi-user app"
+          "title": "Our Priorities",
+          "hardware": "Finalizing hardware for mass production",
+          "algorithm": "Continuous improvement of the predictive algorithm",
+          "app": "Development of the multi-user platform"
         },
         "next": {
           "title": "Next Steps",
-          "certification": "Starting ANATEL/INMETRO certification",
-          "ip": "Planning IP protection"
+          "certification": "ANATEL/INMETRO certification in progress",
+          "ip": "Intellectual property protection for hardware and AI"
         },
         "vision": {
-          "title": "Our Vision",
-          "description": "We want to transform the care of vulnerable people, making it more human, accessible, and effective through predictive technology.",
-          "mission": "Our goal is to prevent accidents before they happen, giving peace of mind to families and autonomy to users."
+          "title": "Future Vision",
+          "description": "To be the national reference in preventive monitoring, democratizing access to cutting-edge technology at an affordable cost with real impact.",
+          "mission": "More than just a slogan, 'protect who matters, wherever they are' is the purpose that drives us every day."
         }
       },
       "founders": {
         "title": "Our Founders",
-        "subtitle": "The team behind the innovation",
+        "subtitle": "The union of technology, purpose, and experience",
         "rafael": {
           "name": "Rafael Farias Meneses",
           "role": "CEO & Co-founder",
-          "description": "Healthtech visionary, focused on solutions that combine technology and human care for vulnerable populations. Personal experience with family loss motivated the creation of ProteJÁ."
+          "description": "Responsible for the product vision, hardware development, scalable systems, and the application of AI for risk prediction."
         },
         "reinaldo": {
           "name": "Reinaldo Kaminski Neto",
-          "role": "CTO & Co-founder",
-          "description": "AI specialist and systems development expert, with experience in anomaly detection and machine learning. Responsible for technical architecture and predictive algorithms."
+          "role": "CIO & Co-founder",
+          "description": "A specialist in cloud infrastructure and artificial intelligence, he is the architect behind the security, performance, and scalability of the ProteJÁ platform."
         }
       },
       "cta": {
-        "title": "Ready to learn about ProteJÁ?",
-        "description": "Contact us and discover how we can help protect those you love most.",
-        "button": "Get in touch"
+        "title": "Shall we transform care in Brazil together?",
+        "description": "Contact us and discover how ProteJÁ can bring more security and peace of mind to your family or institution.",
+        "button": "Talk to our team"
       }
     },
     "products": {
-      "badge": "Complete protection solutions",
-      "title": "Our Products",
-      "subtitle": "Technology that protects lives",
-      "description": "From smart hardware to premium subscription, we offer everything you need to protect who matters most.",
+      "badge": "Our Care Ecosystem",
+      "title": "A Complete Protection Solution",
+      "subtitle": "From hardware to artificial intelligence, everything is integrated for your peace of mind.",
+      "description": "We offer a set of products and services that work in harmony to ensure the best preventive protection.",
       "items": {
         "bracelet": {
-          "name": "ProteJÁ Bracelet",
-          "description": "Proprietary hardware with inertial sensors, low cost, and up to 3 months of battery autonomy.",
+          "name": "ProteJÁ Wristband",
+          "description": "Proprietary hardware with high-precision sensors, a discreet, waterproof design, and up to 3 months of battery life.",
           "features": [
             "Inertial sensors",
-            "3-month battery",
-            "Waterproof",
-            "SOS button"
+            "Up to 3-month battery",
+            "Waterproof design",
+            "SOS panic button"
           ]
         },
         "totem": {
           "name": "Totem System",
-          "description": "Network of totems for home geofencing that identifies user location in each room.",
+          "description": "A network of totems for indoor geolocation that identifies the user's room and alerts about departures from safe areas.",
           "features": [
-            "Home geofencing",
+            "Indoor geolocation",
             "Room identification",
-            "Exit alerts",
-            "Easy installation"
+            "Safe-area exit alerts",
+            "Simple installation"
           ]
         },
         "kit": {
           "name": "Complete ProteJÁ Kit",
-          "description": "Complete solution with bracelet, totem system, and 1 year of ProteJÁ+ subscription included.",
+          "description": "The ideal solution to get started, including the wristband, totems, and a 1-year subscription to the ProteJÁ+ plan.",
           "features": [
-            "Bracelet + Totems",
-            "1 year ProteJÁ+ free",
-            "Technical support",
+            "1 Wristband + 3 Totems",
+            "1 year of ProteJÁ+ included",
+            "Priority technical support",
             "Extended warranty"
           ]
         }
       },
-      "subscribe": "Get updates",
+      "subscribe": "Be the first to know",
       "savings": "Save",
       "subscriptionSavings": "Free ProteJÁ+ subscription",
       "totalSavings": "Total savings of",
-      "freeSubscription": "1 year ProteJÁ+ free",
+      "freeSubscription": "1 year of ProteJÁ+ free",
       "originalPrice": "Individual price:",
       "cta": {
-        "badge": "Premium Features",
-        "title": "Maximize your protection with ProteJÁ+ Subscription",
-        "description": "Discover our subscription plans and unlock advanced fall detection and prevention features with artificial intelligence.",
-        "button": "Learn about ProteJÁ+ Subscription"
+        "badge": "Advanced Features",
+        "title": "Enhance protection with the ProteJÁ+ Subscription",
+        "description": "Discover our plans and unlock the full power of artificial intelligence to predict risks and personalize care.",
+        "button": "Explore Plans"
       }
     },
     "subscription": {
       "badge": "Introducing ProteJÁ+",
-      "title": "ProteJÁ+ Subscription",
-      "subtitle": "Choose your level of protection",
-      "description": "From basic to premium, we have the ideal solution for every need. Start for free or unlock the power of predictive AI.",
-      "savings": "Save 17% with annual plan",
+      "title": "Subscription Plans",
+      "subtitle": "Choose the ideal level of protection for your needs.",
+      "description": "From essential free monitoring to the power of predictive AI, we have a plan that adapts to your reality.",
+      "savings": "Save 17% with the annual plan",
       "billedAnnually": "Billed annually:",
       "plans": {
         "basic": {
-          "name": "ProteJÁ Basic",
-          "subtitle": "Essential protection for emergencies",
+          "name": "ProteJÁ Essential",
+          "subtitle": "Essential protection and location for emergencies",
           "price": "Free",
           "period": "Forever",
           "features": [
-            "Emergency SOS button",
-            "Basic geofencing",
-            "Real-time location",
-            "Up to 5 connected caregivers",
+            "SOS panic button",
+            "Safe zone alerts",
+            "Room identification",
+            "Up to 3 caregivers",
             "Email support"
           ]
         },
         "monthly": {
           "name": "ProteJÁ+ Monthly",
-          "subtitle": "Smart protection with predictive AI",
+          "subtitle": "Smart care with predictive AI",
           "period": "per month",
           "features": [
-            "Everything from Basic plan",
+            "All features from Essential",
             "Smart fall detection",
-            "Personalized predictive AI",
+            "Predictive AI (coming soon)",
             "Unlimited caregivers",
             "24/7 priority support"
           ]
         },
         "yearly": {
           "name": "ProteJÁ+ Annual",
-          "subtitle": "Best value with 2 months free",
+          "subtitle": "The best value for complete care",
           "period": "per month",
           "features": [
-            "Everything from ProteJÁ+",
+            "All features from ProteJÁ+",
             "2 months free",
             "17% discount",
             "Premium technical support",
-            "Extended warranty"
+            "Extended hardware warranty"
           ]
         }
       },
       "comparison": {
         "title": "Compare Features",
-        "subtitle": "See what's included in each plan",
+        "subtitle": "See in detail what each plan offers",
         "tableHeaders": {
           "features": "Features",
-          "basic": "Basic",
+          "basic": "Essential",
           "plus": "ProteJÁ+"
         },
         "features": {
-          "sos": "SOS Button",
-          "geofencing": "Geofencing",
-          "location": "Real-time location",
-          "alerts": "Basic alerts",
-          "caregivers": "Connected caregivers",
-          "fallDetection": "Fall detection",
-          "ai": "Predictive AI",
-          "advancedAlerts": "Advanced alerts",
-          "reports": "Detailed reports",
-          "support": "Priority support"
+          "sos": "SOS Panic Button",
+          "geofencing": "Safe Zone Alert",
+          "location": "Indoor Location (Room)",
+          "alerts": "SOS & Exit Alerts",
+          "caregivers": "Connected Caregivers",
+          "fallDetection": "Smart Fall Detection",
+          "ai": "Predictive Risk AI",
+          "advancedAlerts": "Predictive Alerts",
+          "reports": "Activity Reports",
+          "support": "24/7 Priority Support"
         }
       },
       "benefits": {
         "title": "Why choose ProteJÁ+?",
         "basic": {
-          "title": "Free Basic Protection",
-          "description": "Even without subscription, you have access to SOS button, geofencing, and up to 5 connected caregivers for immediate emergencies."
+          "title": "Free Essential Protection",
+          "description": "Even with the free plan, you get a panic button, safe zone alerts, and multiple caregivers for immediate emergencies."
         },
         "ai": {
           "title": "Advanced Predictive AI",
-          "description": "With ProteJÁ+, our AI learns unique patterns and prevents accidents before they happen."
+          "description": "With ProteJÁ+, our algorithm learns the user's patterns to identify risks and help prevent accidents before they happen."
         },
         "unlimited": {
-          "title": "Unlimited Caregivers",
-          "description": "Connect as many caregivers as you want and keep the entire family and friends informed about the user's well-being."
+          "title": "Unlimited Care Network",
+          "description": "Connect the entire family, friends, and healthcare professionals. There are no limits to the number of people who can protect and care."
         }
       },
       "comingSoon": "Coming soon"
@@ -609,49 +609,49 @@
     "contact": {
       "badge": "We're here to help",
       "title": "Get in Touch",
-      "subtitle": "Let's talk about the future of care",
-      "description": "Have questions about our products? Want to know more about ProteJÁ+? Interested in partnerships? Contact us!",
+      "subtitle": "Let's talk about the future of preventive care",
+      "description": "If you have questions, want to propose a partnership, or simply want to know more about how we can protect your loved ones, our team is here to help.",
       "quickContact": "Quick Contact",
       "stats": {
         "response": "24h",
-        "responseLabel": "Response time",
+        "responseLabel": "Average response time",
         "emails": "100%",
-        "emailsLabel": "Emails answered",
+        "emailsLabel": "of emails answered",
         "founded": "2025",
         "foundedLabel": "Founded in"
       },
       "form": {
-        "title": "Let's talk!",
-        "subtitle": "Fill out the form and we'll contact you within 24 hours",
+        "title": "Let's talk?",
+        "subtitle": "Fill out the form and our team will contact you within 24 hours.",
         "name": "Full name",
         "email": "Email",
-        "phone": "Phone",
+        "phone": "Phone (Optional)",
         "subject": "Subject",
         "message": "Message",
-        "namePlaceholder": "Your full name",
-        "emailPlaceholder": "your@email.com",
+        "namePlaceholder": "Enter your full name",
+        "emailPlaceholder": "your.best@email.com",
         "phonePlaceholder": "(00) 00000-0000",
-        "subjectPlaceholder": "How can we help?",
-        "messagePlaceholder": "Tell us more about your need or question...",
-        "send": "Send message",
-        "sending": "Sending message...",
-        "success": "Message sent successfully! We'll respond soon.",
-        "error": "Error sending message. Please try again.",
-        "required": "*"
+        "subjectPlaceholder": "Select the reason for contact",
+        "messagePlaceholder": "Tell us how we can help...",
+        "send": "Send Message",
+        "sending": "Sending...",
+        "success": "Message sent! Thank you for your interest, we will respond shortly.",
+        "error": "An error occurred. Please try again.",
+        "required": "Required field"
       },
       "help": {
         "title": "How can we help?",
         "partnerships": {
-          "title": "Partnerships",
-          "description": "Interested in strategic partnerships or distribution"
+          "title": "Partnerships & Investors",
+          "description": "Interest in partnerships, distribution, or investment"
         },
         "caregivers": {
-          "title": "Caregivers",
-          "description": "Questions about how ProteJÁ can help your family"
+          "title": "Families & Caregivers",
+          "description": "Questions about how ProteJÁ can help in your daily life"
         },
         "technology": {
-          "title": "Technology",
-          "description": "Technical questions about our products and solutions"
+          "title": "Technical Information",
+          "description": "Questions about how our products and AI work"
         }
       },
       "info": {
@@ -659,38 +659,38 @@
         "phone": "Phone",
         "location": "Location",
         "hours": "Business Hours",
-        "businessHours": "Monday to Friday: 8am to 6pm",
+        "businessHours": "Monday to Friday, 8am to 6pm",
         "ready": {
-          "title": "Ready to start?",
-          "description": "Get in touch and discover how ProteJÁ can transform the safety of your loved ones."
+          "title": "Ready to get started?",
+          "description": "Discover how ProteJÁ can transform the safety and peace of mind of your family."
         }
       },
       "reasons": {
-        "title": "Why choose us?",
+        "title": "Why talk to us?",
         "response": {
-          "title": "Fast Response",
-          "description": "We respond to all contacts within 24 hours"
+          "title": "Agile Response",
+          "description": "Our commitment is to respond to everyone within 24 hours."
         },
         "expertise": {
           "title": "Technical Expertise",
-          "description": "Team specialized in healthtech and predictive AI"
+          "description": "A team of engineers specializing in healthtech and AI."
         },
         "support": {
-          "title": "Personalized Support",
-          "description": "Humanized service and tailored solutions"
+          "title": "Humanized Support",
+          "description": "We understand your pain and are here to offer the best solution."
         }
       }
     },
     "footer": {
-      "tagline": "Protect who matters, wherever they are",
+      "tagline": "Protect who matters, wherever they are.",
       "navigation": "Navigation",
-      "products": "Products",
+      "products": "Solutions",
       "rights": "All rights reserved."
     },
     "partners": {
-      "badge": "Partnerships and Recognition",
-      "title": "Our Partners",
-      "subtitle": "Building the future of care together"
+      "badge": "Partnerships and Recognitions",
+      "title": "Who Trusts in Our Mission",
+      "subtitle": "Building the future of care together with great partners."
     }
   }
 }
