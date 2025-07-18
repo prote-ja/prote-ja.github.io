@@ -1,5 +1,5 @@
 import { useTranslationsContext } from "@/lib/i18n";
-import { Shield, Heart, Mail, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 import { Link } from "react-router";
 
 export function Footer() {
@@ -14,16 +14,9 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-[#7257FF] to-blue-500 rounded-xl blur-lg opacity-50" />
-                <div className="relative bg-gradient-to-r from-[#7257FF] to-blue-500 p-2 rounded-xl">
-                  <Shield className="h-8 w-8 text-white" />
-                </div>
-              </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-[#7257FF] to-blue-400 bg-clip-text text-transparent">
-                ProteJÁ
-              </span>
-              <Heart className="h-6 w-6 text-pink-400" />
+              <img src="/logo-long.svg" alt="ProteJÁ" className="h-12 w-auto" />
+
+              {/* <Heart className="h-6 w-6 text-pink-400" /> */}
             </div>
             <p className="text-gray-300 mb-8 max-w-md leading-relaxed text-lg">
               {t("footer.tagline")}

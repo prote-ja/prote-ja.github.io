@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Shield, Globe } from "lucide-react";
+import { Menu, X, Globe } from "lucide-react";
 import { Link, useLocation } from "react-router";
 import {
   setStoredLanguage,
@@ -64,16 +64,22 @@ export function Navigation({ currentLang, onLanguageChange }: NavigationProps) {
               <div
                 className={`absolute inset-0 bg-gradient-to-r from-[#7257FF] to-blue-500 rounded-xl blur-lg opacity-30 group-hover:opacity-50 transition-opacity`}
               />
-              <div className="relative bg-gradient-to-r from-[#7257FF] to-blue-500 p-2 rounded-xl">
-                <Shield className="h-8 w-8 text-white" />
+              <div className="relative bg-gradient-to-r bg-[#7257FF] p-2 rounded-xl">
+                <img
+                  src="/logo_box.svg"
+                  alt="ProteJÁ Logo"
+                  className="h-8 w-8"
+                />
               </div>
             </div>
-            <span
-              className={`text-2xl font-bold transition-colors ${
-                isScrolled ? "text-gray-900" : "text-white"
-              }`}
-            >
-              ProteJÁ
+            <span className="text-2xl font-bold">
+              <img
+                src="/proteja-name.svg"
+                alt="ProteJÁ"
+                className={`h-12 w-auto -ml-3 mb-2 transition duration-300 ${
+                  isScrolled ? "" : "filter brightness-0 saturate-200 invert"
+                }`}
+              />
             </span>
           </Link>
 

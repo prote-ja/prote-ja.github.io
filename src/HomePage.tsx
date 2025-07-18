@@ -80,9 +80,9 @@ export default function HomePage() {
       logo: "/placeholder.svg?height=80&width=200&text=APA+Toledo",
     },
     {
-      name: "Petrobras",
-      description: "2º Lugar Hackathon IA",
-      logo: "/placeholder.svg?height=80&width=200&text=Petrobras",
+      name: "Sprint",
+      description: "Incubadora de Startups",
+      logo: "/placeholder.svg?height=80&width=200&text=sprint",
     },
   ];
 
