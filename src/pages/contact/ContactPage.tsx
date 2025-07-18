@@ -147,7 +147,7 @@ export default function ContactPage() {
             </p>
 
             {/* Quick Contact Stats */}
-            <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
+            <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto pb-12 md:pb-18">
               <div className="text-center">
                 <div className="text-3xl font-bold mb-2">
                   {t("contact.stats.response")}
@@ -174,6 +174,15 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="absolute bottom-0 left-0 right-0 ">
+          <svg
+            viewBox="0 0 1440 120"
+            className="w-full h-16 sm:h-20 md:h-24 fill-white"
+            preserveAspectRatio="none"
+          >
+            <path d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,64C960,75,1056,85,1152,80C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z" />
+          </svg>
         </div>
       </section>
 
@@ -418,7 +427,7 @@ export default function ContactPage() {
                 </Card>
 
                 {/* Why Choose Us */}
-                <Card className="border-0 shadow-lg bg-gradient-to-br from-green-50 to-emerald-50">
+                {/* <Card className="border-0 shadow-lg bg-gradient-to-br from-green-50 to-emerald-50">
                   <CardContent className="p-6">
                     <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">
                       {t("contact.reasons.title")}
@@ -446,10 +455,10 @@ export default function ContactPage() {
                       ))}
                     </div>
                   </CardContent>
-                </Card>
+                </Card> */}
 
                 {/* Business Hours */}
-                <Card className="border-0 shadow-lg bg-gradient-to-br from-orange-50 to-yellow-50">
+                {/* <Card className="border-0 shadow-lg bg-gradient-to-br from-orange-50 to-yellow-50">
                   <CardContent className="p-6 text-center">
                     <div className="inline-flex items-center justify-center w-12 h-12 bg-orange-100 rounded-full mb-4">
                       <Clock className="h-6 w-6 text-orange-600" />
@@ -461,7 +470,7 @@ export default function ContactPage() {
                       {t("contact.info.businessHours")}
                     </p>
                   </CardContent>
-                </Card>
+                </Card> */}
 
                 {/* Motivational Card */}
                 <Card className="border-0 shadow-lg bg-gradient-to-br from-purple-50 to-pink-50">

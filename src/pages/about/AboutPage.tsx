@@ -39,7 +39,7 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=60 height=60 viewBox=0 0 60 60 xmlns=http://www.w3.org/2000/svg%3E%3Cg fill=none fillRule=evenodd%3E%3Cg fill=%23ffffff fillOpacity=0.05%3E%3Ccircle cx=30 cy=30 r=1/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-50" />
         </div>
 
-        <div className="container mx-auto px-6 relative z-10">
+        <div className="container mx-auto px-6 relative z-10 pb-12 md:pb-18">
           <div className="max-w-4xl mx-auto text-center text-white">
             <div className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-md rounded-full border border-white/20 mb-8">
               <Heart className="h-5 w-5 text-white" />
@@ -56,6 +56,16 @@ export default function AboutPage() {
               {t("about.description")}
             </p>
           </div>
+        </div>
+
+        <div className="absolute bottom-0 left-0 right-0 ">
+          <svg
+            viewBox="0 0 1440 120"
+            className="w-full h-16 sm:h-20 md:h-24 fill-white"
+            preserveAspectRatio="none"
+          >
+            <path d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,64C960,75,1056,85,1152,80C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z" />
+          </svg>
         </div>
       </section>
 

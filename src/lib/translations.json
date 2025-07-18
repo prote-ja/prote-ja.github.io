@@ -9,7 +9,7 @@
     },
     "hero": {
       "badge": "Tecnologia que salva vidas",
-      "title": "Protegendo quem importa, onde quer que estejam",
+      "title": "Proteja quem importa, onde quer que estejam",
       "subtitle": "Soluções inteligentes, acessíveis e preventivas para pessoas em situação de vulnerabilidade",
       "description": "Combinamos hardware proprietário de alta autonomia, inteligência artificial preditiva e um modelo de cuidado descentralizado para prevenir quedas e melhorar a qualidade de vida.",
       "cta": "Conheça nossa solução",
@@ -51,7 +51,7 @@
       "origin": {
         "title": "A Origem do ProteJÁ",
         "subtitle": "Uma história pessoal que se tornou missão",
-        "story1": "ProteJÁ foi fundada em 2024 por Rafael Farias Meneses e Reinaldo Kaminski Neto, estudantes de Engenharia da Computação na UTFPR. Tudo começou quando decidiram participar do Campus Mobile 2025, e Reinaldo compartilhou que sua avó havia caído no banheiro e permanecido inconsciente por horas.",
+        "story1": "ProteJÁ foi fundada em 2025 por Rafael Farias Meneses e Reinaldo Kaminski Neto, estudantes de Engenharia da Computação na UTFPR. Tudo começou quando decidiram participar do Campus Mobile 2025, e Reinaldo compartilhou que sua avó havia caído no banheiro e permanecido inconsciente por horas.",
         "story2": "Durante a apresentação final, um juiz apontou que detectar quedas é reativo — não as previne. Essa percepção foi o divisor de águas, levando ao desenvolvimento de nosso sistema preditivo personalizado.",
         "achievement": "Assim conquistamos o 1º lugar nacional no Campus Mobile 2025."
       },
@@ -73,7 +73,7 @@
         "badge": "Validação Real",
         "title": "Primeiros Testes na APA",
         "subtitle": "Parceria com a Associação Promocional e Assistencial de Toledo",
-        "story1": "Em 2024, visitamos a APA – Lar dos Idosos em Toledo-PR, uma instituição filantrópica referência no cuidado humanizado de idosos em situação de vulnerabilidade.",
+        "story1": "Em 2025, visitamos a APA – Lar dos Idosos em Toledo-PR, uma instituição filantrópica referência no cuidado humanizado de idosos em situação de vulnerabilidade.",
         "story2": "Apresentamos nossa solução diretamente para a direção, enfermeiras e residentes. A recepção foi extremamente positiva, com destaque para o alinhamento da tecnologia com as necessidades reais da instituição.",
         "story3": "As enfermeiras ressaltaram o potencial para reduzir sua carga de trabalho e melhorar a resposta a emergências, validando o impacto real da ProteJÁ no dia a dia de instituições de longa permanência.",
         "users": "Usuários testaram o MVP",
@@ -134,17 +134,32 @@
         "bracelet": {
           "name": "Pulseira ProteJÁ",
           "description": "Hardware proprietário com sensores inerciais, baixo custo e até 3 meses de autonomia de bateria.",
-          "features": ["Sensores inerciais", "3 meses de bateria", "À prova d'água", "Botão SOS"]
+          "features": [
+            "Sensores inerciais",
+            "3 meses de bateria",
+            "À prova d'água",
+            "Botão SOS"
+          ]
         },
         "totem": {
           "name": "Sistema de Totens",
           "description": "Rede de totens para geofencing doméstico que identifica a localização do usuário em cada cômodo.",
-          "features": ["Geofencing doméstico", "Identificação por cômodo", "Alertas de saída", "Fácil instalação"]
+          "features": [
+            "Geofencing doméstico",
+            "Identificação por cômodo",
+            "Alertas de saída",
+            "Fácil instalação"
+          ]
         },
         "kit": {
           "name": "Kit Completo ProteJÁ",
           "description": "Solução completa com pulseira, sistema de totens e 1 ano de assinatura ProteJÁ+ incluída.",
-          "features": ["Pulseira + Totens", "1 ano ProteJÁ+ grátis", "Suporte técnico", "Garantia estendida"]
+          "features": [
+            "Pulseira + Totens",
+            "1 ano ProteJÁ+ grátis",
+            "Suporte técnico",
+            "Garantia estendida"
+          ]
         }
       },
       "subscribe": "Receber atualizações",
@@ -255,7 +270,7 @@
         "responseLabel": "Tempo de resposta",
         "emails": "100%",
         "emailsLabel": "Emails respondidos",
-        "founded": "2024",
+        "founded": "2025",
         "foundedLabel": "Fundada em"
       },
       "form": {
@@ -320,7 +335,7 @@
       }
     },
     "footer": {
-      "tagline": "Protegendo quem importa, onde quer que estejam",
+      "tagline": "Proteja quem importa, onde quer que estejam",
       "navigation": "Navegação",
       "products": "Produtos",
       "rights": "Todos os direitos reservados."
@@ -341,7 +356,7 @@
     },
     "hero": {
       "badge": "Technology that saves lives",
-      "title": "Protecting who matters, wherever they are",
+      "title": "Protect who matters, wherever they are",
       "subtitle": "Smart, affordable, and preventive tech solutions for people in vulnerable situations",
       "description": "We combine proprietary high-autonomy hardware, predictive artificial intelligence, and a decentralized care model to prevent falls and improve quality of life.",
       "cta": "Discover our solution",
@@ -383,7 +398,7 @@
       "origin": {
         "title": "The Origin of ProteJÁ",
         "subtitle": "A personal story that became a mission",
-        "story1": "ProteJÁ was founded in 2024 by Rafael Farias Meneses and Reinaldo Kaminski Neto, Computer Engineering students at UTFPR. It all started when they decided to enter Campus Mobile 2025, and Reinaldo shared that his grandmother had fallen in the bathroom and remained unconscious for hours.",
+        "story1": "ProteJÁ was founded in 2025 by Rafael Farias Meneses and Reinaldo Kaminski Neto, Computer Engineering students at UTFPR. It all started when they decided to enter Campus Mobile 2025, and Reinaldo shared that his grandmother had fallen in the bathroom and remained unconscious for hours.",
         "story2": "During their final pitch, a judge pointed out that detecting falls is reactive — it doesn't prevent them. This insight was the breakthrough, leading to the development of our personalized predictive system.",
         "achievement": "Thus we won 1st place nationally at Campus Mobile 2025."
       },
@@ -405,7 +420,7 @@
         "badge": "Real Validation",
         "title": "First Tests at APA",
         "subtitle": "Partnership with the Promotional and Assistance Association of Toledo",
-        "story1": "In 2024, we visited APA – Elderly Home in Toledo-PR, a philanthropic institution that is a reference in humanized care for elderly people in vulnerable situations.",
+        "story1": "In 2025, we visited APA – Elderly Home in Toledo-PR, a philanthropic institution that is a reference in humanized care for elderly people in vulnerable situations.",
         "story2": "We presented our solution directly to management, nurses, and residents. The reception was extremely positive, highlighting the alignment of technology with the institution's real needs.",
         "story3": "Nurses emphasized the potential to reduce their workload and improve emergency response, validating the real impact of ProteJÁ in the daily life of long-term care institutions.",
         "users": "Users tested the MVP",
@@ -466,17 +481,32 @@
         "bracelet": {
           "name": "ProteJÁ Bracelet",
           "description": "Proprietary hardware with inertial sensors, low cost, and up to 3 months of battery autonomy.",
-          "features": ["Inertial sensors", "3-month battery", "Waterproof", "SOS button"]
+          "features": [
+            "Inertial sensors",
+            "3-month battery",
+            "Waterproof",
+            "SOS button"
+          ]
         },
         "totem": {
           "name": "Totem System",
           "description": "Network of totems for home geofencing that identifies user location in each room.",
-          "features": ["Home geofencing", "Room identification", "Exit alerts", "Easy installation"]
+          "features": [
+            "Home geofencing",
+            "Room identification",
+            "Exit alerts",
+            "Easy installation"
+          ]
         },
         "kit": {
           "name": "Complete ProteJÁ Kit",
           "description": "Complete solution with bracelet, totem system, and 1 year of ProteJÁ+ subscription included.",
-          "features": ["Bracelet + Totems", "1 year ProteJÁ+ free", "Technical support", "Extended warranty"]
+          "features": [
+            "Bracelet + Totems",
+            "1 year ProteJÁ+ free",
+            "Technical support",
+            "Extended warranty"
+          ]
         }
       },
       "subscribe": "Get updates",
@@ -587,7 +617,7 @@
         "responseLabel": "Response time",
         "emails": "100%",
         "emailsLabel": "Emails answered",
-        "founded": "2024",
+        "founded": "2025",
         "foundedLabel": "Founded in"
       },
       "form": {
@@ -652,7 +682,7 @@
       }
     },
     "footer": {
-      "tagline": "Protecting who matters, wherever they are",
+      "tagline": "Protect who matters, wherever they are",
       "navigation": "Navigation",
       "products": "Products",
       "rights": "All rights reserved."
