@@ -56,7 +56,7 @@ export default function ProductsPage() {
       ),
       totalSavings: formatPrice(CALCULATED_PRICING.totalKitSavings),
       isPopular: true,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/kit.png",
     },
   ];
   return (

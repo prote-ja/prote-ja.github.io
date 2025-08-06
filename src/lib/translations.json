@@ -12,7 +12,7 @@
       "title": "Proteja quem importa, onde estiver",
       "subtitle": "Tecnologia acessível e inteligente para proteger quem mais precisa, antes que o pior aconteça.",
       "description": "Desenvolvemos um sistema completo de proteção baseado em inteligência artificial preditiva, hardware proprietário de longa duração e um modelo inovador de cuidado compartilhado, tudo para prevenir quedas e dar mais segurança e autonomia a quem você ama.",
-      "cta": "Conheça a solução",
+      "cta": "Seja parte da solução",
       "contact": "Entre em contato",
       "stats": {
         "battery": "3 meses",
@@ -39,7 +39,7 @@
         "description": "Desenvolvida para o cuidado em rede, nossa plataforma permite que vários cuidadores acompanhem o mesmo usuário. Alertas são enviados em tempo real por WhatsApp, SMS, e-mail e aplicativo, garantindo que qualquer risco seja detectado e atendido rapidamente."
       },
       "ai": {
-        "title": "IA Preditiva (em desenvolvimento)",
+        "title": "IA Preditiva",
         "description": "Nosso algoritmo de IA aprende os padrões únicos de movimento de cada usuário e identifica alterações sutis que podem indicar um risco iminente, como perda de equilíbrio ou inatividade inesperada. A meta é clara: prever para prevenir."
       }
     },
@@ -356,7 +356,7 @@
     },
     "hero": {
       "badge": "Technology that cares",
-      "title": "Protect who matters, wherever they are",
+      "title": "Protect who matters, wherever you are",
       "subtitle": "Affordable and smart technology to protect those who need it most, before the worst happens.",
       "description": "We developed a complete protection system based on predictive artificial intelligence, proprietary long-life hardware, and an innovative shared care model, all to prevent falls and provide more safety and autonomy to those you love.",
       "cta": "Discover the solution",
@@ -386,7 +386,7 @@
         "description": "Developed for network-based care, our platform allows multiple caregivers to monitor the same user. Alerts are sent in real time via WhatsApp, SMS, email, and app, ensuring that any risk is detected and addressed quickly."
       },
       "ai": {
-        "title": "Predictive AI (in development)",
+        "title": "Predictive AI",
         "description": "Our AI algorithm learns each user's unique movement patterns and identifies subtle changes that may indicate an imminent risk, such as recurring loss of balance or unexpected inactivity. The goal is clear: predict to prevent."
       }
     },

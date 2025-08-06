@@ -37,28 +37,28 @@ export default function HomePage() {
       icon: Watch,
       title: t("solution.bracelet.title") as string,
       description: t("solution.bracelet.description") as string,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/pcb.png",
       color: "from-blue-500 to-cyan-500",
     },
     {
       icon: Wifi,
       title: t("solution.totem.title") as string,
       description: t("solution.totem.description") as string,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/totem.png",
       color: "from-green-500 to-emerald-500",
     },
     {
       icon: Smartphone,
       title: t("solution.platform.title") as string,
       description: t("solution.platform.description") as string,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/cell.png",
       color: "from-orange-500 to-red-500",
     },
     {
       icon: Brain,
       title: t("solution.ai.title") as string,
       description: t("solution.ai.description") as string,
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/ai.png",
       color: "from-[#7257FF] to-purple-600",
     },
   ];
@@ -204,7 +204,7 @@ export default function HomePage() {
                   {/* Main Product Image */}
                   <div className="relative bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20 shadow-2xl">
                     <img
-                      src="/placeholder.svg?height=500&width=600"
+                      src="/kit.png"
                       alt="Ecossistema ProteJÁ"
                       className="w-full h-96 object-cover rounded-2xl"
                     />
@@ -281,9 +281,9 @@ export default function HomePage() {
                         alt={solution.title}
                         className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                       />
-                      <div
+                      {/* <div
                         className={`absolute inset-0 bg-gradient-to-r ${solution.color} opacity-20 group-hover:opacity-30 transition-opacity duration-500`}
-                      />
+                      /> */}
 
                       {/* Icon */}
                       <div className="absolute top-6 left-6">

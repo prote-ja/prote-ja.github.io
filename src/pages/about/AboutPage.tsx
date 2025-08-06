@@ -94,7 +94,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="relative bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-gray-200 shadow-2xl">
                   <img
-                    src="/placeholder.svg?height=400&width=500&text=Fundadores+ProteJÁ"
+                    src="/claro.jpg"
                     alt="Fundadores da ProteJÁ"
                     className="w-full h-80 object-cover rounded-2xl"
                   />
@@ -164,7 +164,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="relative bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-gray-200 shadow-2xl">
                   <img
-                    src="/placeholder.svg?height=400&width=500&text=Testes+na+APA+Toledo"
+                    src="/apa.jpg"
                     alt="Testes na APA Toledo"
                     className="w-full h-80 object-cover rounded-2xl"
                   />
@@ -293,7 +293,7 @@ export default function AboutPage() {
                 <CardContent className="p-8 text-center">
                   <div className="mb-6">
                     <img
-                      src="/placeholder.svg?height=200&width=200&text=Rafael+Meneses"
+                      src="/rafael.png"
                       alt="Rafael Farias Meneses"
                       className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-[#7257FF]/20"
                     />
@@ -314,7 +314,7 @@ export default function AboutPage() {
                 <CardContent className="p-8 text-center">
                   <div className="mb-6">
                     <img
-                      src="/placeholder.svg?height=200&width=200&text=Reinaldo+Neto"
+                      src="/reinaldo.png"
                       alt="Reinaldo Kaminski Neto"
                       className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-[#7257FF]/20"
                     />
