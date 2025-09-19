@@ -6,8 +6,8 @@ export const PRICING = {
     kit: 379.0, // This will be used to calculate discount
   },
   subscription: {
-    monthly: 19.9,
-    yearly: 199.0, // This gives 16.60 per month
+    monthly: 45.0,
+    yearly: 420.0, // This gives 16.60 per month
   },
 } as const
 
